@@ -26,3 +26,43 @@ module.exports = async (email, subject, text) => {
 		return error;
 	}
 };
+
+
+
+
+// 2nd code
+
+//  var nodemailer = require("nodemailer");
+
+
+//     var transporter = nodemailer.createTransport({
+//       host: "smtp.gmail.com",
+//       //   service: process.env.SERVICE,
+//       port: 587,
+//       secure: false,
+//       requireTLS: true,
+//       auth: {
+//         user: "garima19dec1996@gmail.com",
+//         pass: "Garima@19Sharma",
+//       },
+//     });
+	
+// 	var mailOptions = {
+//     from: "garima19dec1996@gmail.com",
+//     to: "garima19dec1996@gmail.com",
+//     subject: "demo mail",
+//     text: "hey, you have received a mail",
+//   };
+
+// transporter.sendMail(mailOptions, function (error, info) {
+// 	if (error) {
+// 		console.log("email not sent!");
+//    		console.log(error);
+// 	}
+// 	else {
+// 		console.log("email sent successfully",info.response);
+// 	}
+// 	});
+    
+
+
